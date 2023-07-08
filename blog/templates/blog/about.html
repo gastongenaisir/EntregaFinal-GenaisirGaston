@@ -1,0 +1,44 @@
+{% extends 'blog/base.html' %}
+
+{% block header %}
+
+{% load static %}
+
+<header class="masthead" style="background-image: url({% static 'blog/assets/img/about-bg.jpg' %})">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>{{title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% endblock header %}
+
+{% block main_content %}
+
+<article class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <h1>Acerca de mí</h1>
+                <div style="clear: both;"></div>
+                <figure style="float: right; margin: 0 0 0 2em;">
+                </figure>
+                <p>Hola! A estas alturas, este sitio ha estado online por casi 1 día... Era tiempo de que me comprometiera a hacer una gran actualización. Y sí que ha sido grande! He invertido aproximadamente un año y medio en el sitio, en lo que ha sido más una reconstrucción que una renovación. En todos estos años, mis capacidades para escribir han crecido conmigo... no lo digas, sé que era un desastre y puede que lo siga siendo...</p>
+                <p>Ahora que la reconstrucción ha terminado, siento alivio. Pero esperá! Hay tanto por hacer todavía. Tengo la intención de actualizar constantemente el sitio con nuevas características. Sólo espero poder encontrar el tiempo para hacerlo.</p>
+                <p>Qué más puedo decir? Soy un programador que ha estado haciendo un montón de cosas a lo largo de su vida, la mayoría en lo relacionado al diseño y desarrollo web. Pero actualmente, estoy para product owner y service delivery leader, así que tal vez (sólo tal vez) la próxima vez que nos veamos sea en una situación más divertida... quién sabe!</p>
+                <p>Y si... ese soy yo. Nos vemos la próxima!</p>
+                <address style="text-align: center;">
+                  Gastón Genaisir<br>
+                  Ciudad de Buenos Aires, Argentina
+                </address>
+            </div>
+        </div>
+    </div>
+</article>
+
+{% endblock main_content %}
