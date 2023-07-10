@@ -71,7 +71,7 @@
 <br>
 
 ## Video
-[Blog](https:/aaa/)
+[Blog](https://youtu.be/SG2ZUr_GTkY)
 
 <hr>
 
