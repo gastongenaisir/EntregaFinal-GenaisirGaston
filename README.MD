@@ -1,6 +1,7 @@
 
 
-
+## Video
+[Blog](https://youtu.be/SG2ZUr_GTkY)
 
 <br>
 
